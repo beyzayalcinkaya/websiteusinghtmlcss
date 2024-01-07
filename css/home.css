@@ -95,3 +95,9 @@ span{
   .list1{
     color: rgb(8, 171, 8);
 }
+@media only screen and (min-width: 1600px) {
+    .images img{
+        width: 360px;
+        bottom: 30%;
+    }
+}
