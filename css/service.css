@@ -1,0 +1,40 @@
+.list3{
+    color: rgb(8, 171, 8);
+}
+
+.list:hover{
+    color: rgb(8, 171, 8);
+}
+
+.container{
+    width: 60%;
+    height: 60%;
+    border: 5px solid green;
+    border-radius: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+}
+.text{
+   margin-top: 14%;
+}
+.selection{
+    margin-left: 25%;
+    line-height: 40px;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Diphylleia', serif;
+
+}
+
+.circle{
+    width: 8%;
+    height: 8%;
+    border: 2px solid green;
+    border-radius: 100% 0;
+    background-color: green;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 2%;
+}

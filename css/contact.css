@@ -1,0 +1,60 @@
+.list5{
+    color: rgb(8, 171, 8);
+}
+
+.list:hover{
+    color: rgb(8, 171, 8);
+}
+
+.socialMedia{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.socialMedia div{
+    display: inline;
+}
+
+.socialMedia div a{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    background: green;
+    font-size: 35px;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.socialMedia div a:hover{
+    color: #fff;
+}
+
+.socialMedia .instagram a:hover{
+    background: #7315c6;
+}
+
+.socialMedia a i{
+    transition: 0.5s all;
+}
+
+.socialMedia a:hover > i{
+    transform: scale(1.6) rotate(360deg);
+}
+
+.socialMedia .google a:hover{
+    background: #d34c3d;
+}
+
+.socialMedia .linkedin a:hover{
+    background: #4267B2;
+}
+.socialMedia .github a:hover{
+    background: purple;
+}

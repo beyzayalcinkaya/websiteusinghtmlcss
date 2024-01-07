@@ -1,0 +1,97 @@
+.text{
+    margin-left: 15%;
+    margin-top: 13%;
+}
+
+.text h1{
+    font-size: 50px;
+    color: #121121;
+    margin-bottom: 20px;
+    font-family: 'Diphylleia', serif;
+}
+
+span{
+    color: green;
+    font-weight: bolder;
+    font-family: 'Diphylleia', serif;
+}
+
+.text p{
+    color: #555;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.text a{
+    background: linear-gradient(to right, #073b02, #049e04);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: large;
+    
+     
+}
+
+.text a:hover{
+    background: linear-gradient(to left, #073b02, #039703);
+} 
+.images img{
+    width: 280px;
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+    border-radius: 50%;
+    border: 14px solid rgb(8, 82, 8);
+} 
+
+.images img:hover{
+    border: 17px solid rgb(8, 75, 8); 
+
+}
+
+
+
+.checkOutMy{
+    position: absolute;
+    top: 88%;
+    left: 2%;
+    
+  }
+  
+  .checkOutMy div{
+      display: inline;
+  }
+  
+  .checkOutMy div a{
+      display: inline-flex;
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      font-size: 25px;
+      color: green;
+      margin: 0 2px;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+  }
+  .checkOutMy div span{
+      color: rgb(15, 14, 14);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .checkOutMy a:hover{
+      background-color: green;
+      color: white ;
+  }
+  .list:hover{
+    color: rgb(8, 171, 8);
+}
+  .list1{
+    color: rgb(8, 171, 8);
+}
